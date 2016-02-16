@@ -15,3 +15,5 @@ var timeToRead = function() {
 }
 
 timeToRead();
+
+document.getElementsByClassName('reading-time')[0].innerText = "It takes " + timeToRead() + " to read this page."
